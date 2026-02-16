@@ -36,6 +36,11 @@ class Elevador
         Console.WriteLine("El elevador tiene una capacidad de 10 personas...");
         Console.WriteLine("");
         Console.WriteLine("Entran 8 personas al elevador");
+        numeroPersonas += 8;
+        Console.WriteLine("El elevador se encuentra en estado: " + estadoElevador(Libre(numeroPersonas)));
+        Console.WriteLine("");
+        Console.WriteLine("Entran 3 personas mas al elevador");
+        numeroPersonas += 3;
         Console.WriteLine("El elevador se encuentra en estado: " + estadoElevador(Libre(numeroPersonas)));
     }
 
