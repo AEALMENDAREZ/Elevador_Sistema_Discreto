@@ -1,6 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-using System;
+// Ariel Almendárez - 1074625
+// Livi Escobar - 1264425
+// Bernardette Aragón - 1265425
 
 class Elevador 
 {
